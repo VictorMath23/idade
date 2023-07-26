@@ -1,0 +1,64 @@
+body{
+    background-image: url(imagens/wallpaper.jpg);
+    font: normal 18pt Arial
+}
+
+header{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+section{
+    background: rgba(255, 255, 255, 0.771);
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.463) 3px 3px 10px ;
+}
+
+footer{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+div#res{
+    height: 330px;
+    width: 350px;
+    border-radius: 80%;
+    background-color: rgba(0, 0, 0, 0.345);
+    margin: auto;
+    display: none;
+}
+
+img#fotox{
+    position: relative;
+    height: 330px;
+    width: 350px;
+    border-radius: 90%;
+}
+
+input.botao{
+    border-radius: 6px;
+    border: solid 1px black;
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+    background-color: #5C8889;
+    cursor: pointer;
+}
+
+input#voltar{
+    display: none;
+    margin: auto;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
